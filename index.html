@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Main</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- <!DOCTYPE html> Not needed in Codepen -->
+
+<html>
+  
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Slab" rel="stylesheet">
+
+<div id=main>
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Wild Circus</title>
+
+  </head>
+
+  <body>
+    <!-- All the images are copyright free -->
+    <header>
+
+
+      <img src="http://res.cloudinary.com/djcd5iggm/image/upload/v1514329659/Capture_ao6xop.png">
+
+      <nav>
+        <!-- TODO: Les liens du menu doivent nous emmener vers les sections correspondantes dans la page: -->
+        <ul id=navbar>
+          <li><a href="#AboutUs">About Us</a></li>
+          <li><a href="#Performance">Performances</a></li>
+          <li><a href="#Prices">Prices</a></li>
+          <li><a href="#Contact-Us">Contact</a></li>
+          <form>
+            <input type="text" placeholder="Search..">
+            <button type="submit">Submit</button>
+          </form>
+
+        </ul>
+
+      </nav>
+
+      <h1>The Wild Circus Show</h1>
+
+    </header>
+
+    <section id=AboutUs>
+      <h2>About Us</h2>
+      <!-- TODO: Cette section n'a pas encore été réalisée, tu as carte blanche pour nous montrer ta créativité -->
+      <p> Wild Circus was created by acrobats, dancers, film-makers and musicians in 1986. Wild Circus has in 28 countries and designs shows for sports events, fun days, festivals, schools and environmental charities. Wild Circus artistic team has over 25
+        years of experience touring action-packed comedy shows in big tops, street and theatres.
+      </p>
+    </section>
+
+    <section id=Performance>
+      <!-- TODO: En utilisant du css place ces trois performances ("lough", "dream, "marvel at") sur la même ligne en enlevant le point généré par la balise "li" === list-style-type: none; mais j'ai pris la liberte de faire autre chose pour le site-->
+      <h2>Performances</h2>
+
+      <div class="flex-container">
+        <div class=perfimg> <img src="http://res.cloudinary.com/djcd5iggm/image/upload/v1514313844/pexels-photo-69894_w547gw.jpg"> </div>
+        <div>
+          <h3>Dream</h3>
+          <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians and performers, discover a wonderful world limited only by your imagination.
+            <p>
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <div>
+          <h3>Laugh</h3>
+          <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.
+            <p>
+        </div>
+        <div class=perfimg>
+          <img src="http://res.cloudinary.com/djcd5iggm/image/upload/v1514313844/Laughing-Man-copy-copy-1200x798_xnv1jk.jpg">
+        </div>
+
+      </div>
+
+
+      <div class="flex-container">
+
+        <div class=perfimg><img src="http://res.cloudinary.com/djcd5iggm/image/upload/v1514313844/lion_qo5ctl.jpg"></div>
+
+        <div>
+          <h3>Marvel at</h3>
+          <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.
+            <p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="Prices">
+      <h2>Prices</h2>
+
+      <!-- TODO:  Réalise un tableau qui présente les différents prix. Exemple (aggrandis la fenêtre en largeur pour bien voir l'exemple ci-dessous) :
+
+                                | Adultes | Enfants de moins de 12 ans | Groupes (plus de 10 personnes) | Ecoles
+        Semaines hors mercredi  |         |                         |                                |
+        week-end et mercredi    |         |                         |                                |
+      -->
+      <article class=whitespace>
+
+        <table id=pricetable>
+          <tr>
+            <th></th>
+            <th>Adults</th>
+            <th>Under 12 years</th>
+            <th>Groups (More then 10 persons)</th>
+            <th>School discount</th>
+          </tr>
+          <tr>
+            <td>Weekdays except Wednesday</td>
+            <td>10$</td>
+            <td>6,50$</td>
+            <td>Please contact us</td>
+            <td>Please contact us</td>
+          </tr>
+          <tr>
+            <td>Weekend and Wednesday</td>
+            <td>12$</td>
+            <td>7,50$</td>
+            <td>Please contact us</td>
+            <td>Please contact us</td>
+          </tr>
+
+        </table>
+      </article>
+
+    </section>
+
+    <section class=whitespace>
+
+      <h2><span id=Contact-Us>Contact Us</span></h2>
+      <!-- TODO: Réalise un formulaire de contact avec les champs email et message plus un bouton pour envoyer le message.
+        Ce formulaire n'a pas besoin d'être fonctionnel, réalise juste la mise en forme.
+      -->
+
+      <div id="contact">
+        <form>
+          <div class=spacing>
+            <label>Email:</label>
+
+            <input type="text" placeholder="Email..">
+          </div>
+          <div class=spacing>
+            <label class=whitespace>Subject:</label>
+
+
+            <textarea placeholder="Write something.."></textarea>
+
+            <input type="submit" value="Submit">
+          </div>
+
+        </form>
+      </div>
+
+    </section>
+
+  </body>
+</div>
+<hr class=whitespace>
+<footer>
+  <!-- TODO: Entre ton nom et prénom.
+        Mets en place un lien vers le site de la Wild Code School (https://wildcodeschool.fr).
+        Tu peux egalement mettre un lien sur ton nom vers ton site, ton blog ou ton profil github ou linkedin, si tu en a un.
+       -->
+  <p>Wild Circus by Daniel Deutsch - <a href="https://github.com/fenrisl">Github</a> <a href="www.sololearn.com/Profile/7460312/HTML">SoloLearn</a>
+    <a href=https://wildcodeschool.fr>Wild Code School</a> - 27/12/2017</p>
+</footer>
+
+</html>
+  
+  
+
+</body>
+
+</html>
