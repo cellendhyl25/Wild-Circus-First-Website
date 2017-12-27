@@ -1,4 +1,4 @@
-#main {
+.margin {
   margin-right: 10%;
   margin-left: 10%;
 }
@@ -47,7 +47,7 @@ header > img {
   background-color: #111;
 }
 
-nav {
+#navigation {
   font-size: 23px;
   font-family: "Amatic SC";
 }
@@ -122,20 +122,20 @@ nav {
   text-align: center;
 }
 
-#pricetable{
+#pricetable {
   font-family: "Josefin Slab";
   font-size: 23px;
   border-collapse: collapse;
-  width:100%;
-  text-align:center;
-  
+  width: 100%;
+  text-align: center;
 }
 
-
-#pricetable td, #pricetable th {
-    border: 1px solid ;
+#pricetable td,
+#pricetable th {
+  border: 1px solid;
   padding: 4px;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+}
 
 /*Contact Section*/
 
@@ -179,9 +179,33 @@ textarea {
 /* Footer Section*/
 
 footer {
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 4px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
   text-align: center;
+  font-family: "Josefin Slab";
 }
 
+footer * {
+  margin: 0;
+  padding: 0;
+}
+
+footer .container {
+  display: inline-block;
+  width: 20%;
+}
+
+footer li {
+  list-style: none;
+  padding-bottom: 1px;
+}
 footer a {
+  color: white;
   text-decoration: none;
 }
+

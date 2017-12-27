@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Main</title>
+  <title>First website</title>
   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
@@ -18,28 +18,29 @@
   <!-- <!DOCTYPE html> Not needed in Codepen -->
 
 <html>
-  
+
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div id=main>
 
-  <head>
+<head class=margin>
 
-    <meta charset="UTF-8">
-    <title>Wild Circus</title>
+  <meta charset="UTF-8">
+  <title>Wild Circus</title>
 
-  </head>
+</head>
 
-  <body>
-    <!-- All the images are copyright free -->
+<body>
+  <!-- All the images are copyright free -->
+  <div class=margin>
     <header>
 
 
       <img src="http://res.cloudinary.com/djcd5iggm/image/upload/v1514329659/Capture_ao6xop.png">
 
-      <nav>
+      <nav id=navigation>
         <!-- TODO: Les liens du menu doivent nous emmener vers les sections correspondantes dans la page: -->
         <ul id=navbar>
           <li><a href="#AboutUs">About Us</a></li>
@@ -62,8 +63,8 @@
     <section id=AboutUs>
       <h2>About Us</h2>
       <!-- TODO: Cette section n'a pas encore été réalisée, tu as carte blanche pour nous montrer ta créativité -->
-      <p> Wild Circus was created by acrobats, dancers, film-makers and musicians in 1986. Wild Circus has performed in 28 countries and designs shows for sports events, fun days, festivals, schools and environmental charities. Wild Circus artistic team has over 25
-        years of experience touring action-packed comedy shows in big tops, street and theatres.
+      <p> Wild Circus was created by acrobats, dancers, film-makers and musicians in 1986. Wild Circus has performed in 28 countries and designs shows for sports events, fun days, festivals, schools and environmental charities. Wild Circus artistic team has
+        over 25 years of experience touring action-packed comedy shows in big tops, street and theatres.
       </p>
     </section>
 
@@ -144,8 +145,7 @@
       </article>
 
     </section>
-
-    <section class=whitespace>
+      <section class=whitespace>
 
       <h2><span id=Contact-Us>Contact Us</span></h2>
       <!-- TODO: Réalise un formulaire de contact avec les champs email et message plus un bouton pour envoyer le message.
@@ -172,18 +172,60 @@
       </div>
 
     </section>
+  </div>
+  
+  <section class=whitespace>
 
-  </body>
-</div>
-<hr class=whitespace>
-<footer>
-  <!-- TODO: Entre ton nom et prénom.
-        Mets en place un lien vers le site de la Wild Code School (https://wildcodeschool.fr).
-        Tu peux egalement mettre un lien sur ton nom vers ton site, ton blog ou ton profil github ou linkedin, si tu en a un.
-       -->
-  <p>Wild Circus by Daniel Deutsch - <a href="https://github.com/fenrisl">Github</a> <a href="www.sololearn.com/Profile/7460312/HTML">SoloLearn</a>
-    <a href=https://wildcodeschool.fr>Wild Code School</a> - 27/12/2017</p>
-</footer>
+    <footer>
+      <div class="container">
+        <nav>
+          <h4>--- Site Navigation ---</h4>
+          <ul>
+            <li><a href="#AboutUs">About Us</a></li>
+            <li><a href="#Performance">Performances</a></li>
+            <li><a href="#Prices">Prices</a></li>
+            <li><a href="#Contact-Us">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="container">
+        <h4>--- Contact Us ---</h4>
+        <ul>
+           <li>
+            <a href="https://www.sololearn.com/Profile/7460312">Sololearn</a>
+          </li>
+                  <li>
+            <a href="http://www.france-ioi.org/user/perso.php?sLogin=fenrisl">France-IOI</a>
+          </li>
+          
+          <li>
+          <a href="https://wildcodeschool.fr/">Wild Code School</a>
+          </li>
+         
+          <li>
+           <a>27/12/2017</a>
+          </li>
+        </ul>
+      </div>
+       <div class="container">
+        <ul>
+           <li>
+            <a>Wild Circus by Daniel Deutsch</a>
+          </li>
+          <li>
+            <a>daniel.deutsch25@gmail.com</a>
+          </li>
+          <li>
+    <a href="https://github.com/fenrisl"> <i class="fa fa fa-github fa-lg"></i></a>
+            </li>
+          <br>
+        </ul>
+      </div>
+    </footer>
+  </section>
+</body>
+
 
 </html>
   
