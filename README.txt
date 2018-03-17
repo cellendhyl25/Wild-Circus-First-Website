@@ -1,3 +1,5 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/fenrisl/pen/vpgxzp.
+#Wild-Circus
 
+Small technical test part of the application process for Wild Code School Paris.
+HTML/CSS, set of instruction to follow.
  
